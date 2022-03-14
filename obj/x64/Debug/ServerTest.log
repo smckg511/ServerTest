@@ -1,0 +1,29 @@
+﻿  正在验证源
+  正在将源远程复制到“139.9.175.187”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  Db.cpp
+E:\WorkSpace\VCProjects\ServerTest\Db.cpp(46,14): warning : suggest parentheses around assignment used as truth value [-Wparentheses]
+E:\WorkSpace\VCProjects\ServerTest\Db.cpp(46,14): warning :    while (row = mysql_fetch_row(res)) { //ѭ������ÿ����¼
+E:\WorkSpace\VCProjects\ServerTest\Db.cpp(46,14): warning :           ~~~~^~~~~~~~~~~~~~~~~~~~~~
+E:\WorkSpace\VCProjects\ServerTest\Db.cpp(63,1): warning : control reaches end of non-void function [-Wreturn-type]
+E:\WorkSpace\VCProjects\ServerTest\Db.cpp(63,1): warning :  }
+E:\WorkSpace\VCProjects\ServerTest\Db.cpp(63,1): warning :  ^
+  main.cpp
+E:\WorkSpace\VCProjects\ServerTest\main.cpp(35,49): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+E:\WorkSpace\VCProjects\ServerTest\main.cpp(35,49): warning :       if (db_res == 1) Net_send("account success");
+E:\WorkSpace\VCProjects\ServerTest\main.cpp(35,49): warning :                                                  ^
+E:\WorkSpace\VCProjects\ServerTest\main.cpp(36,52): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+E:\WorkSpace\VCProjects\ServerTest\main.cpp(36,52): warning :       else if (db_res == 2) Net_send("no account id");
+E:\WorkSpace\VCProjects\ServerTest\main.cpp(36,52): warning :                                                     ^
+E:\WorkSpace\VCProjects\ServerTest\main.cpp(37,48): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+E:\WorkSpace\VCProjects\ServerTest\main.cpp(37,48): warning :       else if (db_res == 3) Net_send("key wrong");
+E:\WorkSpace\VCProjects\ServerTest\main.cpp(37,48): warning :                                                 ^
+  Net.cpp
+E:\WorkSpace\VCProjects\ServerTest\Net.cpp(58,10): warning : conversion from ‘ssize_t’ {aka ‘long int’} to ‘int’ may change value [-Wconversion]
+E:\WorkSpace\VCProjects\ServerTest\Net.cpp(58,10): warning :   n = recv(connect_fd, buff, MAXLINE, 0);
+E:\WorkSpace\VCProjects\ServerTest\Net.cpp(58,10): warning :       ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  正在链接对象
+  ServerTest.vcxproj -> E:\WorkSpace\VCProjects\ServerTest\bin\x64\Debug\ServerTest.out

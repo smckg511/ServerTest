@@ -1,0 +1,12 @@
+﻿  正在验证源
+  正在将源远程复制到“139.9.175.187”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  Net.cpp
+E:\WorkSpace\VCProjects\ServerTest\Net.cpp(58,10): warning : conversion from ‘ssize_t’ {aka ‘long int’} to ‘int’ may change value [-Wconversion]
+E:\WorkSpace\VCProjects\ServerTest\Net.cpp(58,10): warning :   n = recv(connect_fd, buff, MAXLINE, 0);
+E:\WorkSpace\VCProjects\ServerTest\Net.cpp(58,10): warning :       ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  正在链接对象
+  ServerTest.vcxproj -> E:\WorkSpace\VCProjects\ServerTest\bin\x64\Release\ServerTest.out

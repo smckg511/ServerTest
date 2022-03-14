@@ -1,0 +1,1 @@
+g++ -o "/root/projects/ServerTest/bin/x64/Debug/ServerTest.out" -Wl,--no-undefined -Wl,-L/usr/lib64/mysql -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /root/projects/ServerTest/obj/x64/Debug/Db.o /root/projects/ServerTest/obj/x64/Debug/main.o /root/projects/ServerTest/obj/x64/Debug/Net.o -lmysqlclient
